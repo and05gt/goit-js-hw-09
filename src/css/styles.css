@@ -13,7 +13,7 @@
   font-weight: 400;
 
   color: #242424;
-  background: #fff;
+  background: #f5f5f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,6 +66,7 @@
   display: block;
   text-align: center;
   transition: background-color 300ms ease-in-out;
+  margin-bottom: 8px;
 }
 
 .back-link:hover {
@@ -87,4 +88,87 @@
 
 .gallery-item:hover {
   transform: scale(1.05);
+}
+
+.wrapper {
+  padding: 24px;
+  width: 408px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label {
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label:last-of-type {
+  margin-bottom: 16px;
+}
+
+.feedback-form input {
+  max-width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border 300ms ease-in-out;
+}
+
+.feedback-form input:hover,
+.feedback-form input:focus {
+  border: 1px solid #000;
+}
+
+.feedback-form textarea {
+  max-width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+  outline: none;
+  resize: none;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border 300ms ease-in-out;
+}
+
+.feedback-form textarea:hover,
+.feedback-form textarea:focus {
+  border: 1px solid #000;
+}
+
+.feedback-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  background-color: #4e75ff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 300ms ease-in-out;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
 }
