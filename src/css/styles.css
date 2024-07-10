@@ -90,14 +90,12 @@
   transform: scale(1.05);
 }
 
-.wrapper {
+.feedback-form {
+  border-radius: 8px;
   padding: 24px;
   width: 408px;
   margin: 0 auto;
   background-color: #fff;
-}
-
-.feedback-form {
   display: flex;
   flex-direction: column;
 }
