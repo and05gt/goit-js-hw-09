@@ -30,7 +30,7 @@ function populateForm() {
 function handleFormSubmit(event) {
   event.preventDefault();
 
-  if (email.value === '' || message.value === '') {
+  if (email.value.trim() === '' || message.value.trim() === '') {
     return alert('Please fill in all the fields!');
   }
 
