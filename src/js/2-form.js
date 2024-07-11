@@ -31,7 +31,7 @@ function handleFormSubmit(event) {
   event.preventDefault();
 
   if (email.value.trim() === '' || message.value.trim() === '') {
-    return alert('Please fill in all the fields!');
+    return alert('Fill please all fields');
   }
 
   console.log(formData);
